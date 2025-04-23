@@ -10,8 +10,11 @@ export default function WithIdleTimeout({ children }) {
   }
 
   const handleLogout = () => {
-    alert('Logging out due to inactivity...')
-    window.location.href = '/login'
+    // alert('Logging out due to inactivity...')
+    // window.location.href = '/login'
+    setShowModal(false)
+    reset()
+    // Perform logout logic here, e.g., clear session, redirect to login page, etc.
   }
 
   const { reset } = useIdleTimer({
