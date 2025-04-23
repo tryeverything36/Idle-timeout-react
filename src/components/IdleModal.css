@@ -25,3 +25,28 @@
   border: none;
   border-radius: 5px;
 }
+
+.modal-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.modal-actions button {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-actions .danger {
+  background: #e53935;
+  color: white;
+}
+
+.modal-actions button:not(.danger) {
+  background: #007bff;
+  color: white;
+}

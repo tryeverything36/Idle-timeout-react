@@ -10,3 +10,11 @@
   text-decoration: none;
   font-weight: bold;
 }
+
+.timer {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #e53935;
+  font-weight: bold;
+}
+
