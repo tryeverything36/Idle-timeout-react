@@ -1,0 +1,27 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal {
+  background: white;
+  padding: 2rem 3rem;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.modal button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
